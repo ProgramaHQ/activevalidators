@@ -13,13 +13,14 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.4.4'
 
   s.add_development_dependency 'bundler'
+  s.add_development_dependency 'byebug'
   s.add_development_dependency 'minitest'
   s.add_dependency 'rake'
   s.add_dependency 'mail'
   s.add_dependency 'date_validator'
   s.add_dependency 'activemodel'            , '>= 3.0'
   s.add_dependency 'phony'                  , '~> 2.0'
-  s.add_dependency 'countries'              , '>= 1.2', '< 4.0'
+  s.add_dependency 'countries'
   s.add_dependency 'credit_card_validations', '~> 3.2'
 
   s.files              = `git ls-files`.split("\n")
